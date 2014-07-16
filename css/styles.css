@@ -10,7 +10,7 @@ Author URI: http://themeforest.net/user/metrothemes/profile?ref=metrothemes
 /*BASIC STYLES
 ------------------------------------------------*/
 
-body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #FFFFFF;background-color: #ED145B; }
+body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #FFFFFF;background-color: #333; }
 
 a { text-decoration: none; color: #ffa300; }
 a:hover { text-decoration: underline; }
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 { padding-bottom: 5px; color: #FFFFFF; line-height: 1em; 
 h1, h2, h3 { letter-spacing: -2px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #111; }
 h1 { font-size: 30px; }
-h2 { font-size: 24px; }
+h2 { font-size: 28px; font-family:strongman; }
 h3 { font-size: 22px; }
 h4 { font-size: 18px; }
 h5 { font-size: 16px; }
@@ -96,12 +96,13 @@ nav{
 .nav > li > a{
     color: #3D5054;
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     padding: 34px 15px;
     text-decoration: none;
     text-shadow: 1px 1px 0 #FFFFFF; 
     outline: none;   
+    font-family: strongman;
 }
 .nav > li > a:hover {
     color: #000000;
@@ -285,7 +286,8 @@ section .header h2{
     outline: 1px solid #EAEDEE;
     margin-bottom: 20px;
     background-color: #FFFFFF;
-    color: #3D5054;    
+    color: #3D5054;   
+    height:500px; 
 }
 .bmeta {
     padding: 10px;
@@ -360,6 +362,10 @@ a.product-info{
     padding: 9px 16px;
     text-decoration: none;
     text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+.partners {
+    margin-bottom: 16px;
 }
 
 /*News
