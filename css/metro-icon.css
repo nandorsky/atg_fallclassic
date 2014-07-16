@@ -1,0 +1,295 @@
+@font-face {
+	font-family: 'metroicon';
+	src:url('fonts/metroicon.eot');
+	src:url('fonts/metroicon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/metroicon.woff') format('woff'),
+		url('fonts/metroicon.ttf') format('truetype'),
+		url('fonts/metroicon.svg#metroicon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'metroicon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="mt-"] {
+*/
+.mt-google-plus, .mt-facebook, .mt-instagram, .mt-twitter, .mt-twitter-2, .mt-youtube, .mt-vimeo, .mt-dribbble, .mt-dribbble-2, .mt-google, .mt-google-plus-2, .mt-google-plus-3, .mt-google-plus-4, .mt-google-drive, .mt-facebook-2, .mt-facebook-3, .mt-twitter-3, .mt-dribbble-3, .mt-picassa, .mt-picassa-2, .mt-flickr, .mt-flickr-2, .mt-flickr-3, .mt-flickr-4, .mt-lanyrd, .mt-vimeo-2, .mt-vimeo2, .mt-youtube-2, .mt-feed, .mt-feed-2, .mt-feed-3, .mt-forrst, .mt-forrst-2, .mt-deviantart, .mt-deviantart-2, .mt-steam, .mt-steam-2, .mt-github, .mt-github-2, .mt-github-3, .mt-github-4, .mt-github-5, .mt-wordpress, .mt-wordpress-2, .mt-joomla, .mt-reddit, .mt-skype, .mt-linkedin, .mt-soundcloud, .mt-soundcloud-2, .mt-windows8, .mt-windows, .mt-android, .mt-finder, .mt-apple, .mt-tux, .mt-yahoo, .mt-tumblr, .mt-tumblr-2, .mt-blogger, .mt-blogger-2, .mt-lastfm, .mt-lastfm-2, .mt-delicious, .mt-stumbleupon, .mt-stumbleupon-2, .mt-stackoverflow, .mt-pinterest, .mt-pinterest-2, .mt-xing, .mt-xing-2, .mt-flattr, .mt-foursquare, .mt-foursquare-2, .mt-paypal, .mt-paypal-2, .mt-paypal-3, .mt-html5, .mt-html5-2, .mt-css3, .mt-chrome, .mt-firefox, .mt-IE, .mt-safari, .mt-opera {
+	font-family: 'metroicon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.mt-google-plus:before {
+	content: "\21";
+}
+.mt-facebook:before {
+	content: "\22";
+}
+.mt-instagram:before {
+	content: "\23";
+}
+.mt-twitter:before {
+	content: "\24";
+}
+.mt-twitter-2:before {
+	content: "\25";
+}
+.mt-youtube:before {
+	content: "\26";
+}
+.mt-vimeo:before {
+	content: "\27";
+}
+.mt-dribbble:before {
+	content: "\28";
+}
+.mt-dribbble-2:before {
+	content: "\29";
+}
+.mt-google:before {
+	content: "\2a";
+}
+.mt-google-plus-2:before {
+	content: "\2b";
+}
+.mt-google-plus-3:before {
+	content: "\2c";
+}
+.mt-google-plus-4:before {
+	content: "\2d";
+}
+.mt-google-drive:before {
+	content: "\2e";
+}
+.mt-facebook-2:before {
+	content: "\2f";
+}
+.mt-facebook-3:before {
+	content: "\30";
+}
+.mt-twitter-3:before {
+	content: "\31";
+}
+.mt-dribbble-3:before {
+	content: "\32";
+}
+.mt-picassa:before {
+	content: "\33";
+}
+.mt-picassa-2:before {
+	content: "\34";
+}
+.mt-flickr:before {
+	content: "\35";
+}
+.mt-flickr-2:before {
+	content: "\36";
+}
+.mt-flickr-3:before {
+	content: "\37";
+}
+.mt-flickr-4:before {
+	content: "\38";
+}
+.mt-lanyrd:before {
+	content: "\39";
+}
+.mt-vimeo-2:before {
+	content: "\3a";
+}
+.mt-vimeo2:before {
+	content: "\3b";
+}
+.mt-youtube-2:before {
+	content: "\3c";
+}
+.mt-feed:before {
+	content: "\3d";
+}
+.mt-feed-2:before {
+	content: "\3e";
+}
+.mt-feed-3:before {
+	content: "\3f";
+}
+.mt-forrst:before {
+	content: "\40";
+}
+.mt-forrst-2:before {
+	content: "\41";
+}
+.mt-deviantart:before {
+	content: "\42";
+}
+.mt-deviantart-2:before {
+	content: "\43";
+}
+.mt-steam:before {
+	content: "\44";
+}
+.mt-steam-2:before {
+	content: "\45";
+}
+.mt-github:before {
+	content: "\46";
+}
+.mt-github-2:before {
+	content: "\47";
+}
+.mt-github-3:before {
+	content: "\48";
+}
+.mt-github-4:before {
+	content: "\49";
+}
+.mt-github-5:before {
+	content: "\4a";
+}
+.mt-wordpress:before {
+	content: "\4b";
+}
+.mt-wordpress-2:before {
+	content: "\4c";
+}
+.mt-joomla:before {
+	content: "\4d";
+}
+.mt-reddit:before {
+	content: "\4e";
+}
+.mt-skype:before {
+	content: "\4f";
+}
+.mt-linkedin:before {
+	content: "\50";
+}
+.mt-soundcloud:before {
+	content: "\51";
+}
+.mt-soundcloud-2:before {
+	content: "\52";
+}
+.mt-windows8:before {
+	content: "\53";
+}
+.mt-windows:before {
+	content: "\54";
+}
+.mt-android:before {
+	content: "\55";
+}
+.mt-finder:before {
+	content: "\56";
+}
+.mt-apple:before {
+	content: "\57";
+}
+.mt-tux:before {
+	content: "\58";
+}
+.mt-yahoo:before {
+	content: "\59";
+}
+.mt-tumblr:before {
+	content: "\5a";
+}
+.mt-tumblr-2:before {
+	content: "\5b";
+}
+.mt-blogger:before {
+	content: "\5c";
+}
+.mt-blogger-2:before {
+	content: "\5d";
+}
+.mt-lastfm:before {
+	content: "\5e";
+}
+.mt-lastfm-2:before {
+	content: "\5f";
+}
+.mt-delicious:before {
+	content: "\60";
+}
+.mt-stumbleupon:before {
+	content: "\61";
+}
+.mt-stumbleupon-2:before {
+	content: "\62";
+}
+.mt-stackoverflow:before {
+	content: "\63";
+}
+.mt-pinterest:before {
+	content: "\64";
+}
+.mt-pinterest-2:before {
+	content: "\65";
+}
+.mt-xing:before {
+	content: "\66";
+}
+.mt-xing-2:before {
+	content: "\67";
+}
+.mt-flattr:before {
+	content: "\68";
+}
+.mt-foursquare:before {
+	content: "\69";
+}
+.mt-foursquare-2:before {
+	content: "\6a";
+}
+.mt-paypal:before {
+	content: "\6b";
+}
+.mt-paypal-2:before {
+	content: "\6c";
+}
+.mt-paypal-3:before {
+	content: "\6d";
+}
+.mt-html5:before {
+	content: "\6e";
+}
+.mt-html5-2:before {
+	content: "\6f";
+}
+.mt-css3:before {
+	content: "\70";
+}
+.mt-chrome:before {
+	content: "\71";
+}
+.mt-firefox:before {
+	content: "\72";
+}
+.mt-IE:before {
+	content: "\73";
+}
+.mt-safari:before {
+	content: "\74";
+}
+.mt-opera:before {
+	content: "\75";
+}
