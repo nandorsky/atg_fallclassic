@@ -190,6 +190,7 @@
 
 .ui360 .sm2-360ui.sm2_playing .sm2-timing {
  visibility:visible;
+ color: #ea6b3f;
 }
 
 .ui360 .sm2-360ui.sm2_buffering .sm2-timing {
