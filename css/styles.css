@@ -10,7 +10,7 @@ Author URI: http://themeforest.net/user/metrothemes/profile?ref=metrothemes
 /*BASIC STYLES
 ------------------------------------------------*/
 
-body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #FFFFFF;background-color: #333; }
+body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #FFFFFF;background-color:#4c808d  ; }
 
 a { text-decoration: none; color: #ffa300; }
 a:hover { text-decoration: underline; }
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 { padding-bottom: 5px; color: #FFFFFF; line-height: 1em; 
 h1, h2, h3 { letter-spacing: -2px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #111; }
 h1 { font-size: 30px; }
-h2 { font-size: 28px; font-family:strongman; }
+h2 { font-size: 28px; }
 h3 { font-size: 22px; }
 h4 { font-size: 18px; }
 h5 { font-size: 16px; }
@@ -102,7 +102,6 @@ nav{
     text-decoration: none;
     text-shadow: 1px 1px 0 #FFFFFF; 
     outline: none;   
-    font-family: strongman;
 }
 .nav > li > a:hover {
     color: #000000;
@@ -287,7 +286,6 @@ section .header h2{
     margin-bottom: 20px;
     background-color: #FFFFFF;
     color: #3D5054;   
-    height:500px; 
 }
 .bmeta {
     padding: 10px;
