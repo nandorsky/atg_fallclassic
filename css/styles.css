@@ -216,11 +216,6 @@ section .header h2{
     background-color: #F9F9F9;
     border-color: rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.075) inset;
-    border-radius: 128px 128px 128px 128px;
-    -web-kit-border-radius: 128px 128px 128px 128px;
-    -moz-border-radius: 128px 128px 128px 128px;
-    -ie-border-radius: 128px 128px 128px 128px;
-    -o-border-radius: 128px 128px 128px 128px;
     margin: 14px auto;
     width: 250px;
  
