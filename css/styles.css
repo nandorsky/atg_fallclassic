@@ -645,3 +645,7 @@ footer .info{
         margin-left: 28px;
     }
 }
+
+.band img {
+    height:300px;
+}
