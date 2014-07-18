@@ -50,7 +50,7 @@ header{
 
 }
 #mt-header{
-    background-image: url(../img/header-bg2.jpg);
+    background-image: url(../img/brick_gradient.jpg);
 }
 .header-bg-style{
     background-attachment: fixed;
@@ -485,6 +485,7 @@ article .info {
     text-shadow: none;
     outline: none;
 }
+
 textarea,input[type="text"]{
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
