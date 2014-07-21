@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="not-ie" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="" />
+<meta name="keywords" content=""/>
+<meta name="author" content="Metrothenes" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>All Things Go | Fall Classic</title>
+<!--Fav and touch icons-->
+<link rel="shortcut icon" href="img/icons/favicon.ico">
+<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+
+<!--style sheet-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.css"/>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/sgallery-styles.css"/>
+<link media="all" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,800italic,400,300,700,800&amp;subset=latin,latin-ext" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/metro-icon.css" />
+
+
+
+<!-- then load the typeface.js library and typeface.js fonts -->
+<script src="typeface-0.15.js"></script>
+<script src="strongman_regular.typeface.js"></script>
+
+<!-- soundManager.useFlashBlock: related CSS -->
+<link rel="stylesheet" type="text/css" href="player/flashblock/flashblock.css" />
+<!-- required -->
+<link rel="stylesheet" type="text/css" href="player/css/360player.css" />
+<link rel="stylesheet" type="text/css" href="player/css/360player-visualization.css" />
+<link rel="shortcut icon" href="http://allthingsgomusic.com/wp-content/themes/allthingsgo/favicon.ico" />
+</head>
+<body>
+<!-- header -->	
+<header id="mt-header" class="header-bg-style" style="background-color:white;">
+		<div class="container">
+			<div class="logo">
+				<a href="#"><img style="width:600px;" src="img/fall_logo.png" alt="logo"/></a>
+			</div>
+			<!--<div class="hgroup">
+				<h1>Fall Classic</h1>
+				<h2>Subtext could go here</h2>
+			</div>-->
+		</div> 
+</header>
+<!-- header end -->
+
+<!-- event -->
+<section id="events">
+	<div class="container">
+<!-- section header -->		
+		<div class="header">
+			<h2>Tickets</h2>
+			<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=12276010879&ref=etckt" frameborder="0" height="400" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Online Ticketing</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="https://allthingsgofallclassic.eventbrite.com/?ref=etckt">All Things Go Fall Classic</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+		</div>
+<!-- section header end -->
+<!-- event blocks -->
+		<div class="row">
+
+
+		</div>
+<!-- event blocks end -->
+
+	</div>
+</section>
+<!-- event end -->
+
+<style type="text/css">
+
+.band img {
+	height: 300px;
+}
+
+</style>
+
+<!--JavaScript-->
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/sgallery.min.js"></script>
+<script type="text/javascript" src="js/screenfull.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<script type="text/javascript" src="js/jquery.ufvalidator-1.0.5.js"></script>
+
+
+<!-- special IE-only canvas fix -->
+<!--[if IE]><script type="text/javascript" src="player/script/excanvas.js"></script><![endif]-->
+
+<!-- Apache-licensed animation library -->
+<script type="text/javascript" src="player/script/berniecode-animator.js"></script>
+
+<!-- the core stuff -->
+<script type="text/javascript" src="player/script/soundmanager2.js"></script>
+<script type="text/javascript" src="player/script/360player.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+<script type="text/javascript" src="js/gmap3.js"></script> 
+<script type="text/javascript">
+
+soundManager.setup({
+  // path to directory containing SM2 SWF
+  url: 'player/swf/'
+});
+
+threeSixtyPlayer.config.scaleFont = (navigator.userAgent.match(/msie/i)?false:true);
+threeSixtyPlayer.config.showHMSTime = true;
+
+// enable some spectrum stuffs
+
+threeSixtyPlayer.config.useWaveformData = true;
+threeSixtyPlayer.config.useEQData = true;
+
+// enable this in SM2 as well, as needed
+
+if (threeSixtyPlayer.config.useWaveformData) {
+  soundManager.flash9Options.useWaveformData = true;
+}
+if (threeSixtyPlayer.config.useEQData) {
+  soundManager.flash9Options.useEQData = true;
+}
+if (threeSixtyPlayer.config.usePeakData) {
+  soundManager.flash9Options.usePeakData = true;
+}
+
+if (threeSixtyPlayer.config.useWaveformData || threeSixtyPlayer.flash9Options.useEQData || threeSixtyPlayer.flash9Options.usePeakData) {
+  // even if HTML5 supports MP3, prefer flash so the visualization features can be used.
+  soundManager.preferFlash = true;
+}
+
+// favicon is expensive CPU-wise, but can be used.
+if (window.location.href.match(/hifi/i)) {
+  threeSixtyPlayer.config.useFavIcon = true;
+}
+
+if (window.location.href.match(/html5/i)) {
+  // for testing IE 9, etc.
+  soundManager.useHTML5Audio = true;
+}
+
+</script>
+</body>
+</html>

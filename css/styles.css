@@ -10,7 +10,7 @@ Author URI: http://themeforest.net/user/metrothemes/profile?ref=metrothemes
 /*BASIC STYLES
 ------------------------------------------------*/
 
-body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #FFFFFF; background-color:#4c808d  ; }
+body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: #FFFFFF; background-color:white; }
 
 a { text-decoration: none; color: #ffa300; }
 a:hover { text-decoration: underline; }
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 { padding-bottom: 5px; color: #FFFFFF; line-height: 1em; 
 h1, h2, h3 { letter-spacing: -2px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #111; }
 h1 { font-size: 30px; }
-h2 { font-size: 28px; }
+h2 { font-size: 28px; font-family: NeutraText; }
 h3 { font-size: 22px; }
 h4 { font-size: 18px; }
 h5 { font-size: 16px; }
@@ -50,7 +50,8 @@ header{
 
 }
 #mt-header{
-    background-image: url(../img/brick_gradient.jpg);
+    
+    background-color: white;
 }
 .header-bg-style{
     background-attachment: fixed;
@@ -59,7 +60,7 @@ header{
     background-size: cover;    
 }
 #mt-header .container{
-    padding: 130px 0 150px;
+    padding: 80px 0 10px;
 }
 #mt-header .logo{
     text-align: center;
@@ -126,7 +127,7 @@ nav .is-sticky .main-nav{
 ------------------------------------*/
 
 section{
-    padding: 130px 0px 140px;
+    padding: 40px 0px 140px;
 }
 
 section .header{
