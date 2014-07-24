@@ -139,7 +139,6 @@ section .header{
 section .header h2{
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 20px;
     color: #FFFFFF;
 }
 
